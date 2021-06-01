@@ -14,7 +14,7 @@ function App() {
               <Jumbotron.SubTitle>{item.subTitle}</Jumbotron.SubTitle>
             </Jumbotron.Pane>
             <Jumbotron.Pane>
-              <Jumbotron.Image>{item.image}</Jumbotron.Image>
+              <Jumbotron.Image src={item.image}></Jumbotron.Image>
             </Jumbotron.Pane>
           </Jumbotron>
         ))}
