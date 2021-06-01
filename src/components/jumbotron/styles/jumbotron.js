@@ -13,8 +13,6 @@ export const Inner = styled.div`
     flex-direction: column;
   }
 `;
-
-export const Container = styled.div``;
 export const Title = styled.h1`
   font-size: 50px;
   line-height: 1.1;
@@ -53,4 +51,12 @@ export const Item = styled.div`
   padding: 50px 5%;
   color: white;
   overflow: hidden;
+`;
+
+export const Container = styled.div`
+  @media (max-width: 1000px) {
+    ${Item}:last-of-type h2 {
+      margin-bottom: 50px;
+    }
+  }
 `;
