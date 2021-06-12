@@ -45,9 +45,17 @@ Accordion.Header = function AccordionHeader({ children, ...restProps }) {
     >
       {children}
       {toggleShow ? (
-        <img src="/public/images/icons/close-slim.png" alt="Close" />
+        <img
+          style={{ width: '15px' }}
+          src="https://image.flaticon.com/icons/png/512/271/271203.png"
+          alt="Close"
+        />
       ) : (
-        <img src="/public/images/icons/add.png" alt="Open" />
+        <img
+          style={{ width: '15px' }}
+          src="https://image.flaticon.com/icons/png/512/1828/1828921.png"
+          alt="Open"
+        />
       )}
     </Header>
   );
